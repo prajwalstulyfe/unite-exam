@@ -8,17 +8,10 @@ const questionPaper = {
   maximumMarks: '100',
   generalInstructions: [
     'Read the following instructions carefully and follow them:',
-    '1. This question paper contains 38 questions.',
-    '2. This Question Paper is divided into 5 Sections A, B, C, D and E.',
-    '3. In Section A, Questions no. 1-18 are multiple choice questions (MCQs) and questions no. 19 and 20 are Assertion- Reason based questions of 1 mark each.',
-    '4. In Section B, Questions no. 21-25 are very short answer (VSA) type questions, carrying 02 marks each.',
-    '5. In Section C, Questions no. 26-31 are short answer (SA) type questions, carrying 03 marks each.',
-    '6. In Section D, Questions no. 32-35 are long answer (LA) type questions, carrying 05 marks each.',
-    '7. In Section E, Questions no. 36-38 are case study based questions carrying 4 marks each with sub parts of the values of 1, 1 and 2 marks each respectively.',
-    '8. All Questions are compulsory. However, an internal choice in 2 Question of Section B, 2 Questions of Section C and 2 Questions of Section D has been provided. An internal choice has been provided in all the 2 marks questions of Section E.',
-    '9. Draw neat and clean figures wherever required.',
-    '10. Take π = 22/7 wherever required if not stated.',
-    '11. Use of calculators is not allowed.',
+    '1. All Questions are compulsory. However, an internal choice in 2 Question of Section B, 2 Questions of Section C and 2 Questions of Section D has been provided. An internal choice has been provided in all the 2 marks questions of Section E.',
+    '2. Draw neat and clean figures wherever required.',
+    '3. Take π = 22/7 wherever required if not stated.',
+    '4. Use of calculators is not allowed.',
   ],
   sections: [
     {
@@ -463,7 +456,8 @@ const questionPaper = {
         {
           id: 'q31',
           queNo: 31,
-          queText: 'If the sum of the first n natural numbers is 210, find the value of n.',
+          queText:
+            'A school is organizing a stair climbing challenge for its students. The first student climbs 1 step, the second climbs 2 steps, the third climbs 3 steps, and so on, with each subsequent student climbing one more step than the previous student. If the total number of steps climbed by all students together is 210, how many students participated in the challenge? Show all steps clearly, including the formula used for the sum of the first n natural numbers, and verify your answer.',
           queType: 'Short Answer',
           queMarks: 3,
           queImage: false,

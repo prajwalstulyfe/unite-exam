@@ -144,13 +144,13 @@ const PageHeader = React.forwardRef(({ questionPaper }, ref) => (
     <hr className='my-1 border-[#bbb]' />
     <div className='mt-2 mb-1'>
       <div className='font-semibold text-[0.98rem] mb-0.5'>General Instructions:</div>
-      <ol className='list-decimal ml-5 text-[0.94rem] text-[#222]'>
+      <div className='text-[0.94rem] text-[#222]'>
         {(Array.isArray(questionPaper.generalInstructions) ? questionPaper.generalInstructions : []).map((inst, i) => (
-          <li key={i} className='mb-0.5'>
+          <div key={i} className='mb-0.5'>
             {inst}
-          </li>
+          </div>
         ))}
-      </ol>
+      </div>
     </div>
   </header>
 ));
